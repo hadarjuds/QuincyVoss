@@ -1,0 +1,11 @@
+{
+  "name": "quincyfotos-desarrollo",
+  "private": true,
+  "description": "Verificación de QuincyFotos.jsx fuera de Photoshop",
+  "scripts": {
+    "test": "node verificar.js"
+  },
+  "devDependencies": {
+    "acorn": "^8.14.0"
+  }
+}
