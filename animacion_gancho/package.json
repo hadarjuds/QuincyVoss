@@ -1,0 +1,31 @@
+{
+  "name": "animacion-gancho",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Gancho (parte 1) de «What's the most expensive mistake ever made?», animado solo con código en Remotion.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Gancho out/gancho.mp4",
+    "stills": "node scripts/render-stills.mjs",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src scripts remotion.config.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3",
+    "prettier": "3.6.2"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
